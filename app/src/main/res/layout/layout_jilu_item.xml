@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_circle2"
+        android:layout_margin="5dp"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/jilu_pic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/jilu_goods"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdf"
+            android:layout_toRightOf="@+id/jilu_pic"
+            android:textSize="15sp"
+            android:lines="2"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="17dp" />
+
+        <TextView
+            android:id="@+id/jilu_names"
+            android:layout_width="wrap_content"
+            android:text="asdf"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jilu_goods"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="12sp"
+            android:layout_below="@+id/jilu_goods" />
+
+        <TextView
+            android:id="@+id/jilu_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/jilu_zhuangtai"
+            android:text="asdf"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:layout_toRightOf="@+id/jilu_names"
+            android:textColor="@color/chengse"
+            android:layout_alignBaseline="@+id/jilu_names" />
+
+        <TextView
+            android:id="@+id/jilu_quans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/jilu_goods"
+            android:text="asdf"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/jilu_names" />
+
+        <TextView
+            android:id="@+id/jilu_quan"
+            android:layout_width="wrap_content"
+            android:text="asdf"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_toRightOf="@+id/jilu_quans"
+            android:layout_alignBaseline="@+id/jilu_quans"
+            android:textColor="@color/chengse" />
+
+        <TextView
+            android:id="@+id/jilu_zhuangtai"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/jilu_quans"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:text="asdfasdfasdfs" />
+    </RelativeLayout>
+
+</RelativeLayout>

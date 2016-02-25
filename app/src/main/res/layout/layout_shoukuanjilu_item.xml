@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/textview_circle2"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:id="@+id/shoukuan_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/shoudao"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/shoukuan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/shoukuan_names"
+            android:text="asdf"
+            android:textColor="@color/chengse"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/shoukuan_name"
+            android:background="@color/gray" />
+
+        <TableLayout
+            android:id="@+id/shoukuan_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shoukuan_name"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="0,1,2">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/shoukuan_item1"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/shoukuan_item2"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/shoukuan_item3"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/shoukuan_item1"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textColor="@color/chengse"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/shoukuan_item2"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textColor="@color/chengse"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/shoukuan_item3"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:textColor="@color/chengse"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/shoukuan_riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/shoukuan_main"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+</RelativeLayout>

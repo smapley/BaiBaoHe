@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/jiangquan_lin1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/toubu">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="@dimen/tag_textsize"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/jiangquan_tag" />
+
+        <TextView
+            android:id="@+id/jiangquan_shuliang"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tag_textsize"
+            android:text="@string/jiangquan_item1" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_alignBottom="@+id/jiangquan_lin1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray" />
+
+
+    <ListView
+        android:id="@+id/jiangquan_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jiangquan_lin1"
+        android:layout_above="@+id/jiangquan_okay"
+        android:background="@drawable/textview_circle2"
+        android:layout_margin="5dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/jiangquan_okay"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:text="@string/shengcheng"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@drawable/shengcheng"
+        android:textSize="@dimen/tag_textsize"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

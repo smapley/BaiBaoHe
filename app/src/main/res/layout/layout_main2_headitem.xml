@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_circle2"
+        android:layout_margin="10dp"
+        android:paddingBottom="10dp"
+        android:stretchColumns="0,1,2,3">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/main2_item2"
+                style="@style/main2_item"
+                android:background="@drawable/item2" />
+
+            <TextView
+                android:id="@+id/main2_item3"
+                style="@style/main2_item"
+                android:background="@drawable/item6" />
+
+            <TextView
+                android:id="@+id/main2_item4"
+                style="@style/main2_item"
+                android:background="@drawable/item4" />
+
+            <TextView
+                android:id="@+id/main2_item5"
+                style="@style/main2_item"
+                android:background="@drawable/item5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/main2_item6"
+                style="@style/main2_item"
+                android:background="@drawable/item3" />
+
+            <TextView
+                android:id="@+id/main2_item7"
+                style="@style/main2_item"
+                android:background="@drawable/item7" />
+
+            <TextView
+                android:id="@+id/main2_item8"
+                style="@style/main2_item"
+                android:background="@drawable/item8" />
+
+            <TextView
+                android:id="@+id/main2_item1"
+                style="@style/main2_item"
+                android:background="@drawable/item1" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

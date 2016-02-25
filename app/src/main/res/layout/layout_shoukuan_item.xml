@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/textview_circle2"
+        android:paddingBottom="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/fukuan_lin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fu"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/shoukuan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fu"
+                android:textColor="@color/chengse"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/fukuan_lin2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/fukuan_lin1"
+            android:layout_marginTop="8dp"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fukuan_lin2">
+
+            <TextView
+                android:id="@+id/shoukuan_shoukuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/textview_circle_chengse"
+                android:padding="10dp"
+                android:text="@string/shoukuan"
+                android:textColor="@color/white2"
+                android:textSize="15sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/shoukuan_shoukuan"
+                android:stretchColumns="0,1,2">
+
+
+                <TableRow android:layout_marginTop="6dp">
+
+                    <TextView
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="@string/shoukuan_item1" />
+
+                    <TextView
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="@string/shoukuan_item2" />
+
+                    <TextView
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="@string/shoukuan_item3" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/shoukuan_item1"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:textColor="@color/chengse" />
+
+                    <TextView
+                        android:id="@+id/shoukuan_item2"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:textColor="@color/chengse" />
+
+                    <TextView
+                        android:id="@+id/shoukuan_item3"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:textColor="@color/chengse" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

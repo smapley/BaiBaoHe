@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#f8f8f8</color>
+    <color name="white2">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2a2ad8</color>
+    <color name="gray">#dfdfdf</color>
+    <color name="bluetitle">#00CCFF</color>
+    <color name="chengse">#ff8302</color>
+    <color name="chengses">#FF6000</color>
+    <color name="heise">#484848</color>
+    <color name="yiduihuan">#e70000</color>
+    <color name="weiduihuan">#77c12c</color>
+    <color name="red">#CC0033</color>
+    <color name="no">#00ffffff</color>
+    虚线和浅灰色字色值：#c2c2c2
+    投影色值：#dfdfdf
+    “已兑奖”色值：#e70000
+    “未兑奖”色值：#77c12c
+</resources>

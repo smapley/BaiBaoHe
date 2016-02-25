@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/textview_circle2"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/fukuan_names"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/fugei"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fukuan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/fukuan_names"
+            android:textColor="@color/chengse"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/fukuan_name"
+            android:background="@color/gray" />
+
+        <TableLayout
+            android:id="@+id/fukuan_main"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/fukuan_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/shoukuan_item1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/shoukuan_item2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/shoukuan_item3"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/fukuan_item1"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/chengse"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fukuan_item2"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/chengse"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fukuan_item3"
+                    android:layout_width="70dp"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/chengse"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/fukuan_main2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fukuan_main"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="8dp">
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/fukuan_1"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fukuan_fukuanmima"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/chengse"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="@string/fukuan_2"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/fukuan_choujiangquan"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/chengse"
+                    android:textSize="15sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/fukuan_zhuangtai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:text="aef"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/fukuan_qzt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:text="@string/choujiang"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:layout_above="@+id/fukuan_riqi"
+            android:layout_alignRight="@+id/fukuan_zhuangtai"
+            android:layout_alignEnd="@+id/fukuan_zhuangtai" />
+
+
+        <TextView
+            android:id="@+id/fukuan_riqi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fukuan_main2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:text="asdfasdfasdfas" />
+    </RelativeLayout>
+</RelativeLayout>

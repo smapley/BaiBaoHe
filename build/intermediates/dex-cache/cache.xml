@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/classes-0fbd1defc015183c7a9c2e72f5cb910e05fdb2ad.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-18b4ca49a1974da92d63bacb0419e198e3c25126.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-8aa71c56500b1a23867b0b1c756cc0763fa90832.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/classes-121530d8e51d70975700c047dad90534033cdefd.jar" />
+    </item>
+
+</items>

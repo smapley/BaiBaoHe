@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/tixian_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/toubu"
+            android:gravity="center"
+            android:text="@string/tixian"
+            android:textColor="@color/white"
+            android:textSize="@dimen/tag_textsize" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/gray" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="@string/tixian_item1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tixian_item1"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_circle2s"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/chengse"
+                    android:textCursorDrawable="@color/chengse"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="@string/tixian_item2"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tixian_item2"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_circle2s"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/chengse"
+                    android:textCursorDrawable="@color/chengse"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="@string/tixian_item3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tixian_item3"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_circle2s"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/chengse"
+                    android:textSize="16sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="@string/tixian_item4"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/tixian_item4"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/textview_circle2s"
+                    android:inputType="number"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/chengse"
+                    android:textSize="16sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tixian_item5"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/textview_circle_chengse"
+            android:gravity="center"
+            android:text="@string/okay"
+            android:textColor="@color/white2"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

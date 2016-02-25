@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_tag"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/toubu"
+        android:gravity="center"
+        android:text="@string/bangzhu"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tag_textsize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/textview_circle2"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/help"
+            android:textSize="16sp"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:stretchColumns="0">
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/help_item1"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:text="@string/help_item5"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TextView
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray" />
+
+            <TableRow android:layout_marginTop="8dp">
+
+                <TextView
+                    android:text="@string/help_item2"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:text="@string/help_item6"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TextView
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray" />
+
+            <TableRow android:layout_marginTop="8dp">
+
+                <TextView
+                    android:text="@string/help_item3"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:text="@string/help_item7"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TextView
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray" />
+
+            <TableRow android:layout_marginTop="8dp">
+
+                <TextView
+                    android:text="@string/help_item4"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:gravity="right"
+                    android:text="@string/help_item8"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TextView
+                android:layout_height="0.5dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/gray" />
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
