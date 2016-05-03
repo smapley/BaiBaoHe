@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/Login.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/QianBao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/Set.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/Store.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Activity/ZhanShi.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/DuiJiangAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/FuKuanJiLuAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/JiangQuanAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/JiluAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/LianMeng1Adapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/LianMeng2Adapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/smapley/baibaohe/Adapter/PhoneAdapter.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -2,32 +2,130 @@
 <items version="2" >
 
     <item
-        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jar="/Users/smapley/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c6d79137693d494dee16372d3921f919eb724ced">
-        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/classes-0fbd1defc015183c7a9c2e72f5cb910e05fdb2ad.jar" />
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/bolts-android-1.1.4_1ab2a52000b4114079f77421f00d7ffac5d1c4e7.jar" />
     </item>
     <item
         jar="/Users/smapley/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-18b4ca49a1974da92d63bacb0419e198e3c25126.jar" />
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/support-annotations-22.1.1_18b4ca49a1974da92d63bacb0419e198e3c25126.jar" />
     </item>
     <item
-        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.5.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-8aa71c56500b1a23867b0b1c756cc0763fa90832.jar" />
+        sha1="edcb1bb563fa950dfa638b8efd10398088ceaccc">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.facebook.fresco-drawee-0.5.0_ffb650e9b64de6a0f1b06d6ff407929d47e9a910.jar" />
     </item>
     <item
-        jar="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/BaiBaoHe/listview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4ac7a43d838ce2d820c8ae1914e5f38e3ed094ba">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/BaiBaoHe-listview-unspecified_ae6d44e5a92a7ef1672953066a98e56b1e215ec5.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aafdd2ccb8b4a3bfecb83127f189cbbb4f864a73">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.facebook.fresco-imagepipeline-0.5.0_23d0203995e4212309538df3d5cb43083a07aa86.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6c828a82efd4d7b389ea45dcc883f38ba053263d">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fresco-0.5.0_c05b2df0e0b38566468ee473b48970473b906a10.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-22.0.0_6b19d3acb1aaddb7f4d5edbadf463761655f3032.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c52b6f76d1afe959a9b6651ae61d2b0d158f8c9">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.facebook.fresco-fbcore-0.5.0_ece4393fea1b5bb05d3d7f8547b641986fed2086.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/BaiBaoHe/image-selector/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54a6a2a01ec687fb95a9a83dcdbba334cb25c458">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/BaiBaoHe-image-selector-unspecified_9d3e1133d9d0110a9c17e4569122d47edc3f6ba3.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-22.1.1_055965d53cadc70c3a840c5a14ad25735a222c79.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/libs/fastjson-1.1.22.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1744ecd7f8716ac83381f2b8f5bd002365ccdca9">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/fastjson-1.1.22_dbdead3d691c380cbc803002012fdaa12ade2099.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/libs/SMSSDK-1.1.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="96383506ac3f109eea7f9f11e075347808aa37c3">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/SMSSDK-1.1.9_11293393d2bdedb973daa2a68a5b92623937d4ad.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/library-2.4.0_e4ecd12b6e1e71f894e73b16b53e455d8c221a9d.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/picasso-2.4.0_daececfc8c4e13a89f7926fba4d84f7dde41d26a.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/Users/smapley/百度云同步盘/Work/Studio/BaiBaoHe/app/build/intermediates/pre-dexed/debug/classes-121530d8e51d70975700c047dad90534033cdefd.jar" />
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-22.1.1_a32ae576f1123bb808048ca9b338f0c30b463bf3.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/internal_impl-22.1.1_e502bb4b48dbd444b57c4e7f103be88fd2e914dd.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/exploded-aar/me.neavo/volley/2014.12.09/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fba1ad83fb68864551a039aa2148f798dd6ec970">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/me.neavo-volley-2014.12.09_65f908d8db95df66f955dd1d367e58424265fb23.jar" />
+    </item>
+    <item
+        jar="/Users/smapley/Desktop/Android/BaiBaoHe/app/libs/alipaySDK-20150610.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5a05e35493f2b4712dda31da3625a4a7459dc088">
+        <dex dex="/Users/smapley/Desktop/Android/BaiBaoHe/app/build/intermediates/pre-dexed/release/alipaySDK-20150610_1333a3055ae9eb926d8b24a8a65bba4dd1385223.jar" />
     </item>
 
 </items>

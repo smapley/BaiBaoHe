@@ -29,12 +29,12 @@ import java.util.List;
  */
 public class LianMeng2Adapter extends BaseAdapter {
     /**
-     * µÃµ½Ò»¸öLayoutInfalter¶ÔÏóÓÃÀ´µ¼Èë²¼¾Ö
+     * å¾—åˆ°ä¸€ä¸ªLayoutInfalterå¯¹è±¡ç”¨æ¥å¯¼å…¥å¸ƒå±€
      */
     private LayoutInflater mInflater;
     private Context context;
     /**
-     * listµÄÊı¾İ
+     * listçš„æ•°æ®
      */
     public List<LianMengItem> listitem;
     private GetBitmap getBitmap;
@@ -42,7 +42,7 @@ public class LianMeng2Adapter extends BaseAdapter {
     private ProgressDialog progressDialog;
 
     /**
-     * ¹¹Ôìº¯Êı
+     * æ„é€ å‡½æ•°
      */
     public LianMeng2Adapter(Context context,
                             List listitem) {
@@ -55,7 +55,7 @@ public class LianMeng2Adapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return listitem.size();// ·µ»ØÊı×éµÄ³¤¶È
+        return listitem.size();// è¿”å›æ•°ç»„çš„é•¿åº¦
 
     }
 

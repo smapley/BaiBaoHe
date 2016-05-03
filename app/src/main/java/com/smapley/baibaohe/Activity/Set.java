@@ -122,10 +122,10 @@ public class Set extends Activity {
                 menutag = 1;
                 menu.setVisibility(View.GONE);
                 Intent intent = new Intent(Intent.ACTION_PICK);
-                intent.setType("image/*");// ÏàÆ¬ÀàÐÍ
+                intent.setType("image/*");// ç›¸ç‰‡ç±»åž‹
                 intent.putExtra("scale", true);
                 intent.putExtra("crop", "true");
-                intent.putExtra("aspectX", 1);// ±íÊ¾¼ôÇÐ¿òµÄ±ÈÀý1:1µÄÐ§¹û
+                intent.putExtra("aspectX", 1);// è¡¨ç¤ºå‰ªåˆ‡æ¡†çš„æ¯”ä¾‹1:1çš„æ•ˆæžœ
                 intent.putExtra("aspectY", 1);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
                 startActivityForResult(intent, 0);

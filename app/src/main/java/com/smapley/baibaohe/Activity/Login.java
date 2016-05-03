@@ -67,7 +67,7 @@ public class Login extends Activity implements View.OnClickListener {
             @Override
             public void afterEvent(int event, int result, Object data) {
                 if (event == SMSSDK.EVENT_SUBMIT_VERIFICATION_CODE) {
-                    //Ìá½»ÑéÖ¤Âë³É¹¦
+                    //æäº¤éªŒè¯ç æˆåŠŸ
                     if (result == SMSSDK.RESULT_COMPLETE) {
                         new Thread(new Runnable() {
                             @Override
@@ -87,7 +87,7 @@ public class Login extends Activity implements View.OnClickListener {
                 }
             }
         };
-        SMSSDK.registerEventHandler(eventHandler); //×¢²á¶ÌĞÅ»Øµ÷
+        SMSSDK.registerEventHandler(eventHandler); //æ³¨å†ŒçŸ­ä¿¡å›è°ƒ
     }
 
     private void initView() {
@@ -185,7 +185,7 @@ public class Login extends Activity implements View.OnClickListener {
     }
 
     private Handler mHandler = new Handler() {
-        // ÖØĞ´handleMessage()·½·¨£¬´Ë·½·¨ÔÚUIÏß³ÌÔËĞĞ
+        // é‡å†™handleMessage()æ–¹æ³•ï¼Œæ­¤æ–¹æ³•åœ¨UIçº¿ç¨‹è¿è¡Œ
         @Override
         public void handleMessage(Message msg) {
             try {

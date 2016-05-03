@@ -11,7 +11,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -99,13 +98,13 @@ public class ZhanShi extends Activity {
                 boolean showCamera = true;
                 int maxNum = 9;
                 Intent intent = new Intent(ZhanShi.this, MultiImageSelectorActivity.class);
-                // 是否显示拍摄图片
+                // 鏄惁鏄剧ず鎷嶆憚鍥剧墖
                 intent.putExtra(MultiImageSelectorActivity.EXTRA_SHOW_CAMERA, showCamera);
-                // 最大可选择图片数量
+                // 鏈�澶у彲閫夋嫨鍥剧墖鏁伴噺
                 intent.putExtra(MultiImageSelectorActivity.EXTRA_SELECT_COUNT, maxNum);
-                // 选择模式
+                // 閫夋嫨妯″紡
                 intent.putExtra(MultiImageSelectorActivity.EXTRA_SELECT_MODE, selectedMode);
-                // 默认选择
+                // 榛樿閫夋嫨
 //                if (mSelectPath != null && mSelectPath.size() > 0) {
 //                    intent.putExtra(MultiImageSelectorActivity.EXTRA_DEFAULT_SELECTED_LIST, mSelectPath);
 //                }
